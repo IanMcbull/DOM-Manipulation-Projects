@@ -1,0 +1,25 @@
+.red{
+    background-color: red;
+}
+
+.moveball{
+    animation: moveball 2s infinite;
+}
+
+@keyframes moveball{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(100px);
+    }
+    50%{
+        transform: translateX(-200px);
+    }
+    75%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>DOM</title>
+</head>
+<body>
+    <main class="container mx-auto flex items-center h-screen flex-col justify-center">
+        <h2 class="text-center text-2xl">Login</h2>
+        <form id="form" class="space-y-8 mt-10 form">
+            <div>
+                <label class="text-sm">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username" class="border border-orange-300 w-full rounded-md p-2">
+            </div>
+            <div>
+                <label class="text-sm">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password here" class="border border-orange-300 w-full rounded-md p-2">
+            </div>
+            <button type="submit" class="bg-orange-500 py-2 text-white rounded-l w-full hover:bg-orange-400">Submit</button>
+        </form>
+        <div id="userInfo" class="mt-6">
+                    
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
